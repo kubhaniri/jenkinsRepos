@@ -72,4 +72,21 @@
       </plugins>
     </pluginManagement>
   </build>
+  <repositories>
+    <repository>
+      <id>myMavenRepo.read</id>
+      <url>https://mymavenrepo.com/repo/Qj3nFieaBluufHotmlqo/</url>
+    </repository>
+  </repositories>
+
+  <distributionManagement>
+    <repository>
+      <id>myMavenRepo.write</id>
+      <url>https://mymavenrepo.com/repo/PZSmxGWDejKRxbJ9nWQv/</url>
+    </repository>
+    <snapshotRepository>
+      <id>myMavenRepo.write</id>
+      <url>https://mymavenrepo.com/repo/PZSmxGWDejKRxbJ9nWQv/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
